@@ -1,0 +1,20 @@
+# Node / Next
+node_modules/
+.next/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Env / secrets — keep this out even though there's nothing sensitive in the sample
+.env*
+*.local

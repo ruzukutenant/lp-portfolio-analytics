@@ -1,0 +1,42 @@
+{
+  "fund_name": "Sample Rolling Fund — 2021 Q1 cohort",
+  "tax_year": 2025,
+  "lp_entity": "Sample LP",
+  "ein": "00-0000000",
+  "k1_received_date": "2026-03-22",
+  "entity_type": "LP",
+  "fund_level": {
+    "capital_account_begin_usd": 102841,
+    "contributions_usd": 0,
+    "withdrawals_usd": 4600,
+    "share_of_income_loss_usd": -1850,
+    "capital_account_end_usd": 96391,
+    "suspended_pal_carryforward_usd": 8420,
+    "section_1202_qualifying_share_pct": 0.65
+  },
+  "positions": [
+    {"company": "BusRight", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 5800, "section_1202_5yr_clear_date": "2026-01-15"},
+    {"company": "Hone Health", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 6200, "section_1202_5yr_clear_date": "2026-02-08"},
+    {"company": "Eight Sleep", "entity_type": "C-corp", "qsbs_eligible": false, "qsbs_basis_usd": 0, "qsbs_disqualifier": "Gross assets exceeded $50M at issuance (Series C entry)"},
+    {"company": "Atlys", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 4500, "section_1202_5yr_clear_date": "2026-03-04"},
+    {"company": "CowryWise", "entity_type": "C-corp (parent: Delaware)", "qsbs_eligible": true, "qsbs_basis_usd": 5100, "section_1202_5yr_clear_date": "2026-03-11"},
+    {"company": "Fion Technologies", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 4200, "section_1202_5yr_clear_date": "2026-03-18"},
+    {"company": "Yac", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 4800, "shutdown_loss_recognized_year": 2024, "loss_character": "QSBS section 1244 ordinary loss"},
+    {"company": "Journey", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 4400, "section_1202_5yr_clear_date": "2026-01-28"},
+    {"company": "Fifty Foods", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 5600, "section_1202_5yr_clear_date": "2026-02-15", "notes": "Now operates as Immi"},
+    {"company": "Valiu", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 4900, "shutdown_loss_recognized_year": 2023, "loss_character": "QSBS section 1244 ordinary loss"},
+    {"company": "Facet", "entity_type": "C-corp", "qsbs_eligible": false, "qsbs_basis_usd": 0, "qsbs_disqualifier": "Series B entry; gross assets exceeded $50M at issuance"},
+    {"company": "On Deck", "entity_type": "C-corp", "qsbs_eligible": false, "qsbs_basis_usd": 0, "qsbs_disqualifier": "Services business (excluded under §1202(e)(3))"},
+    {"company": "Peachy Patients", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 4100, "section_1202_5yr_clear_date": "2026-03-15"},
+    {"company": "Farmstead", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 6800, "shutdown_loss_recognized_year": 2022, "loss_character": "QSBS section 1244 ordinary loss"},
+    {"company": "Haus", "entity_type": "C-corp", "qsbs_eligible": true, "qsbs_basis_usd": 5400, "section_1202_5yr_clear_date": "2026-02-26"},
+    {"company": "MarketerHire", "entity_type": "C-corp", "qsbs_eligible": false, "qsbs_basis_usd": 0, "shutdown_loss_recognized_year": 2024, "qsbs_disqualifier": "Talent marketplace — IRS treats as services (Code §1202(e)(3))"}
+  ],
+  "tax_notes": [
+    "10 of 16 positions are §1202 QSBS eligible (62.5%). Weighted by cost basis: 65% of paid-in is QSBS-eligible.",
+    "All eligible positions cleared 5-year holding period in Q1 2026 — gains realized after that date qualify for federal exclusion.",
+    "Shutdowns (Yac, Valiu, Farmstead) generated §1244 ordinary losses, deductible up to $50K/yr against ordinary income.",
+    "MarketerHire shutdown loss is non-QSBS but still §1244 ordinary loss eligible.",
+    "Suspended PALs of $8,420 will release on full fund liquidation."
+  ]
+}

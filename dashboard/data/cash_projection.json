@@ -1,0 +1,14 @@
+{
+  "paid_in_usd": 118122.0,
+  "p10_usd": 176463.0,
+  "p50_usd": 256469.0,
+  "p90_usd": 345932.0,
+  "p50_composition": {
+    "already_received_usd": 4600,
+    "principal_recovery_usd": 113522.0,
+    "profit_pretax_usd": 138347.0,
+    "carry_usd": 34587.0
+  },
+  "after_tax_p50_usd": 243720.0,
+  "tax_usd": 12749.0
+}

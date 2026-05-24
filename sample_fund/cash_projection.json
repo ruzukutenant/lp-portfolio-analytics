@@ -1,0 +1,33 @@
+{
+  "model_version": "sample-fund cash projection v1",
+  "fund_economics": {
+    "pattern": "rolling_fund",
+    "fee_drag_multiplier": 1.2715,
+    "carry_pct": 0.2,
+    "qsbs_state_tax_pct": 0.05,
+    "non_qsbs_blended_ltcg_pct": 0.288
+  },
+  "deployed_usd": 92900.0,
+  "paid_in_usd": 118122.0,
+  "fee_drag_usd": 25222.0,
+  "already_distributed_usd": 4600,
+  "p50": {
+    "gross_exit_usd": 291056.0,
+    "carry_usd": 34587.0,
+    "net_pretax_usd": 256469.0,
+    "tax_usd": 12749.0,
+    "after_tax_usd": 243720.0,
+    "moic_on_paid_in": 2.17,
+    "moic_after_tax": 2.06
+  },
+  "range_net_pretax": {
+    "p10": 176463.0,
+    "p50": 256469.0,
+    "p90": 345932.0
+  },
+  "qsbs_split": {
+    "qsbs_eligible_profit_usd": 168487.0,
+    "non_qsbs_profit_usd": 15017.0,
+    "qsbs_coverage_pct": 0.918
+  }
+}

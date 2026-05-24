@@ -1,0 +1,30 @@
+{
+  "snapshot_date": "2026-05-24",
+  "fund_id": "sample_rolling_fund",
+  "fund_name": "Sample Rolling Fund \u2014 2021 Q1 cohort",
+  "fund_description": "16-position cohort drawn from a real early-stage rolling fund's Q1 2021 quarter, sized to a hypothetical $100K LP commitment. Marks are illustrative reconstructions from public signals.",
+  "deployed_usd": 92900.0,
+  "paid_in_usd": 118122.0,
+  "fee_drag_usd": 25222.0,
+  "already_distributed_usd": 4600,
+  "future_p50_net_usd": 251869.0,
+  "total_p50_net_usd": 256469.0,
+  "after_tax_p50_usd": 243720.0,
+  "moic_on_paid_in": 2.17,
+  "moic_after_tax": 2.06,
+  "p10_net_pretax_usd": 176463.0,
+  "p90_net_pretax_usd": 345932.0,
+  "qsbs_coverage_pct": 0.918,
+  "audit_notice": {
+    "status": "implemented",
+    "headline": "Cap-table dilution audit applied",
+    "detail": "Marks computed via entry_pct \u00d7 cumulative_survival \u00d7 current_post for each priced round since LP entry. GP marks would have implied $389,700 in aggregate; dilution-aware audit puts it at $182,590 \u2014 naive over-state of 113%.",
+    "methodology_link": "methodology/dilution_math.md"
+  },
+  "verification_notice": {
+    "status": "implemented",
+    "headline": "16 / 16 positions independently verified",
+    "detail": "Per-position bottoms-up scenarios anchored to comp table (methodology/comp_anchors.md). AI tailwind credit applied where applicable. Cohort breakdown and IRR sanity-checks pass.",
+    "methodology_link": "methodology/audit_and_verification.md"
+  }
+}

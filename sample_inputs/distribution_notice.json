@@ -1,0 +1,20 @@
+[
+  {
+    "distribution_date": "2024-08-31",
+    "source_company": "Yac",
+    "fund_name": "Sample Rolling Fund — 2021 Q1",
+    "gross_distribution_usd": 4600,
+    "tax_character": "QSBS § 1244 ordinary loss (loss recognized: $200)",
+    "notes": "Wind-down distribution of remaining cash. Original cost basis $4,800; recovered $4,600; $200 §1244 ordinary loss recognized.",
+    "wire_received_date": "2024-09-04"
+  },
+  {
+    "distribution_date": "2024-11-15",
+    "source_company": "[fund-level adjustment]",
+    "fund_name": "Sample Rolling Fund — 2021 Q1",
+    "gross_distribution_usd": 0,
+    "tax_character": "n/a",
+    "notes": "Capital account adjustment for fee true-up; no cash distribution",
+    "wire_received_date": null
+  }
+]

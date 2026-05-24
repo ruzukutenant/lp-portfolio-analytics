@@ -1,0 +1,67 @@
+{
+  "_note": "Every priced round each portfolio company has done since LP entry. Used by pipeline/compute_dilution.py to compute cumulative survival. Where post-money is null, the pipeline falls back to stage-multiplier imputation.",
+  "BusRight": [
+    {"round": "Seed", "date": "2021-01-15", "raise_usd": 5800000, "post_money_usd": 29000000, "lead": "Bessemer", "_lp_entry": true},
+    {"round": "Series A", "date": "2023-06-20", "raise_usd": 13500000, "post_money_usd": 78000000, "lead": "Long Ridge"},
+    {"round": "Series A extension", "date": "2024-09-12", "raise_usd": 8000000, "post_money_usd": 105000000, "lead": "Bessemer follow-on"}
+  ],
+  "Hone Health": [
+    {"round": "Seed", "date": "2021-02-08", "raise_usd": 4200000, "post_money_usd": 22000000, "lead": "Founder Collective", "_lp_entry": true},
+    {"round": "Series A", "date": "2022-04-14", "raise_usd": 16000000, "post_money_usd": 86000000, "lead": "Lerer Hippeau"},
+    {"round": "Series B", "date": "2024-03-08", "raise_usd": 35000000, "post_money_usd": 285000000, "lead": "Foundation Capital"}
+  ],
+  "Eight Sleep": [
+    {"round": "Series C", "date": "2021-02-22", "raise_usd": 86000000, "post_money_usd": 415000000, "lead": "Valor Equity", "_lp_entry": true},
+    {"round": "Series C extension", "date": "2023-11-04", "raise_usd": 45000000, "post_money_usd": 720000000, "lead": "Valor follow-on"}
+  ],
+  "Atlys": [
+    {"round": "Pre-Seed", "date": "2021-03-04", "raise_usd": 2200000, "post_money_usd": 18000000, "lead": "Peak XV (then Sequoia India)", "_lp_entry": true},
+    {"round": "Seed", "date": "2022-10-22", "raise_usd": 12000000, "post_money_usd": 65000000, "lead": "Peak XV"},
+    {"round": "Series A", "date": "2026-01-15", "raise_usd": 30000000, "post_money_usd": 185000000, "lead": "Peak XV"}
+  ],
+  "CowryWise": [
+    {"round": "Seed", "date": "2021-03-11", "raise_usd": 3000000, "post_money_usd": 17000000, "lead": "Quona Capital", "_lp_entry": true},
+    {"round": "Pre-Series A", "date": "2023-08-10", "raise_usd": 6500000, "post_money_usd": 42000000, "lead": "Sahil Lavingia + Quona"}
+  ],
+  "Fion Technologies": [
+    {"round": "Seed", "date": "2021-03-18", "raise_usd": 3500000, "post_money_usd": 18000000, "lead": "AngelList Fund", "_lp_entry": true},
+    {"round": "Bridge", "date": "2023-04-22", "raise_usd": 1500000, "post_money_usd": 22000000, "lead": "Insider bridge — flat-ish"}
+  ],
+  "Yac": [
+    {"round": "Seed", "date": "2021-03-22", "raise_usd": 7500000, "post_money_usd": 40000000, "lead": "GGV", "_lp_entry": true}
+  ],
+  "Journey": [
+    {"round": "Pre-Seed", "date": "2021-01-28", "raise_usd": 2800000, "post_money_usd": 22000000, "lead": "Initialized", "_lp_entry": true},
+    {"round": "Seed extension", "date": "2023-02-14", "raise_usd": 4000000, "post_money_usd": 32000000, "lead": "Insider"}
+  ],
+  "Fifty Foods": [
+    {"round": "Seed", "date": "2021-02-15", "raise_usd": 3000000, "post_money_usd": 18000000, "lead": "Sahil Lavingia", "_lp_entry": true, "_note": "Rebranded to Immi"},
+    {"round": "Series A", "date": "2023-09-20", "raise_usd": 10000000, "post_money_usd": 55000000, "lead": "Coefficient Capital"}
+  ],
+  "Valiu": [
+    {"round": "Seed", "date": "2021-03-08", "raise_usd": 5250000, "post_money_usd": 25000000, "lead": "Y Combinator + Mucker", "_lp_entry": true}
+  ],
+  "Facet": [
+    {"round": "Series B", "date": "2021-02-04", "raise_usd": 100000000, "post_money_usd": 460000000, "lead": "Warburg Pincus", "_lp_entry": true}
+  ],
+  "On Deck": [
+    {"round": "Series A", "date": "2021-01-22", "raise_usd": 20000000, "post_money_usd": 100000000, "lead": "Founders Fund", "_lp_entry": true},
+    {"round": "Series B", "date": "2021-10-15", "raise_usd": 70000000, "post_money_usd": 535000000, "lead": "Tiger"},
+    {"round": "Bridge / down round", "date": "2023-08-22", "raise_usd": 8000000, "post_money_usd": 90000000, "lead": "Insider, 83% discount"},
+    {"round": "Bridge 2 / down", "date": "2025-11-15", "raise_usd": 3000000, "post_money_usd": 27000000, "lead": "Insider"}
+  ],
+  "Peachy Patients": [
+    {"round": "Pre-Seed", "date": "2021-03-15", "raise_usd": 1800000, "post_money_usd": 14000000, "lead": "Angel syndicate", "_lp_entry": true}
+  ],
+  "Farmstead": [
+    {"round": "Series A", "date": "2021-01-19", "raise_usd": 7500000, "post_money_usd": 40000000, "lead": "Aidenlair Capital", "_lp_entry": true}
+  ],
+  "Haus": [
+    {"round": "Seed", "date": "2021-02-26", "raise_usd": 4500000, "post_money_usd": 22000000, "lead": "Lerer Hippeau", "_lp_entry": true},
+    {"round": "Series A", "date": "2023-05-18", "raise_usd": 10000000, "post_money_usd": 65000000, "lead": "Resolute Ventures"}
+  ],
+  "MarketerHire": [
+    {"round": "Seed", "date": "2021-03-02", "raise_usd": 4400000, "post_money_usd": 23000000, "lead": "BBG Ventures + sahil_lavingia", "_lp_entry": true},
+    {"round": "Series A", "date": "2022-04-05", "raise_usd": 22000000, "post_money_usd": 120000000, "lead": "Volition Capital"}
+  ]
+}
