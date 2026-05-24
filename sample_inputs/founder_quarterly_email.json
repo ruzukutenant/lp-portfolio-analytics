@@ -1,9 +1,37 @@
 [
   {
-    "company": "Hone Health",
+    "_note": "FABRICATED. Generic placeholder companies (Company A / B / etc.) intentionally used in this file instead of the cohort's real names, because forward-looking claims (ARR figures, named customer wins, raise plans) about real portfolio companies would be misleading or potentially defamatory even with a disclaimer. The other sample_inputs files use real names because they reflect public-record data; this file is structural only.",
+    "company": "Company A — vertical SaaS (K-12 transportation)",
+    "email_date": "2026-04-05",
+    "quarter": "2026 Q1",
+    "subject": "Company A investor update Q1 2026",
+    "current_arr_usd": 16000000,
+    "yoy_growth_pct": 78,
+    "runway_months": 18,
+    "raise_planned": "Series B, $25-35M, kicking off May 2026",
+    "headcount": 62,
+    "customer_metrics": {
+      "active_accounts": 410,
+      "end_users_daily": 1100000,
+      "churn_annual_pct": 2.1
+    },
+    "highlights": [
+      "Crossed $16M ARR (up from $9M YoY)",
+      "Signed a top-5 customer in the category on a multi-year contract",
+      "AI optimization feature live with majority of base; meaningful efficiency gains"
+    ],
+    "risk_flags": [
+      "Long enterprise sales cycle (9-14 months); pipeline coverage at 3.1× target",
+      "Incumbent competitor cutting prices aggressively on renewals"
+    ],
+    "ask": "Warm intros to category buyers would accelerate next-year pipeline"
+  },
+  {
+    "_note": "FABRICATED placeholder.",
+    "company": "Company B — consumer health (telehealth)",
     "email_date": "2026-04-12",
     "quarter": "2026 Q1",
-    "subject": "Hone Health Q1 2026 investor update",
+    "subject": "Company B Q1 2026 investor update",
     "current_arr_usd": 113000000,
     "yoy_growth_pct": 32,
     "runway_months": 24,
@@ -15,21 +43,22 @@
       "ltv_cac_ratio": 3.8
     },
     "highlights": [
-      "Crossed $113M ARR in March, up from $86M YoY",
-      "Launched women's hormone health vertical (early traction, ~$2M ARR in first quarter)",
-      "Hired CFO from Hims (Q1)"
+      "Crossed $113M ARR (up from $86M YoY)",
+      "Launched adjacent vertical (early traction, ~$2M ARR in first quarter)",
+      "Hired CFO from a public-market comp"
     ],
     "risk_flags": [
-      "Hims & Hers public-market multiple compression (~4-5× revenue) compressing comp valuations",
-      "GLP-1 attribution shift — some men's health customers shifting to weight-loss platforms"
+      "Public-market comp multiple compression (~4-5× revenue) compressing private valuations",
+      "Adjacent-category platform shift affecting customer attribution"
     ],
-    "ask": "Looking for warm intros to enterprise health benefits buyers (self-insured employers >5K employees)"
+    "ask": "Looking for warm intros to enterprise health benefits buyers"
   },
   {
-    "company": "Eight Sleep",
+    "_note": "FABRICATED placeholder.",
+    "company": "Company C — consumer hardware + subscription",
     "email_date": "2026-03-28",
     "quarter": "2026 Q1",
-    "subject": "Eight Sleep Q1 update — Pod 5 launch",
+    "subject": "Company C Q1 update — new hardware launch",
     "current_arr_usd": 340000000,
     "yoy_growth_pct": 45,
     "runway_months": 36,
@@ -41,132 +70,110 @@
       "subscription_attach_rate": 0.71
     },
     "highlights": [
-      "Pod 5 launched March 2026, 18,000 pre-orders in first month",
-      "Hardware margin improved from 41% to 49% with manufacturing consolidation",
+      "Next-gen hardware launched, 18,000 pre-orders in first month",
+      "Hardware margin improved with manufacturing consolidation",
       "Subscription ARR now 61% of total ARR (up from 48% YoY)"
     ],
     "risk_flags": [
-      "Tariff exposure on China-made components (currently 15%, watching for escalation)",
-      "Returns rate on Pod 5 elevated in first 60 days (likely transient)"
+      "Tariff exposure on imported components",
+      "Returns rate on new hardware elevated in first 60 days (likely transient)"
     ],
     "ask": "None this quarter; will share IPO timing thinking in Q3 update"
   },
   {
-    "company": "BusRight",
-    "email_date": "2026-04-05",
+    "_note": "FABRICATED placeholder for an AI-adjacent vertical SaaS that just closed a strong Series A.",
+    "company": "Company D — vertical SaaS (cross-border consumer)",
+    "email_date": "2026-02-20",
     "quarter": "2026 Q1",
-    "subject": "BusRight investor update Q1 2026",
-    "current_arr_usd": 16000000,
-    "yoy_growth_pct": 78,
-    "runway_months": 18,
-    "raise_planned": "Series B, $25-35M, kicking off May 2026 with Bessemer leading conversations",
-    "headcount": 62,
+    "subject": "Company D — Series A closed, growth update",
+    "current_arr_usd": 45000000,
+    "yoy_growth_pct": 280,
+    "runway_months": 40,
+    "raise_planned": "Series A closed Jan 2026 — $30M at $185M post-money",
+    "headcount": 145,
     "customer_metrics": {
-      "active_school_districts": 410,
-      "students_routed_daily": 1100000,
-      "churn_annual_pct": 2.1
+      "monthly_volume": 38000,
+      "approval_rate_pct": 96.4,
+      "nps": 71
     },
     "highlights": [
-      "Crossed $16M ARR, up from $9M YoY",
-      "Signed Houston ISD (4th largest district in country) — 5-year contract worth $4.2M",
-      "AI route-optimization product live with 80% of base; cuts route count 12-18% on average"
+      "Crossed $45M ARR (up from $12M YoY, ~280%)",
+      "Series A closed at $185M post — strong terms",
+      "Expanded to two new destination markets"
     ],
     "risk_flags": [
-      "Sales cycle remains long (9-14 months for large districts); pipeline coverage at 3.1× target",
-      "Encore Technologies (incumbent) cutting prices aggressively on renewals"
+      "Regulatory exposure to policy shifts",
+      "Customer concentration: top 3 markets = 78% of volume"
     ],
-    "ask": "Intros to school transportation directors in TX, FL, and NY would accelerate FY27 pipeline"
+    "ask": "Looking for ops talent — VP Operations role open"
   },
   {
-    "company": "On Deck",
+    "_note": "FABRICATED placeholder for a position in distress / restructuring.",
+    "company": "Company E — services / cohort-based learning",
     "email_date": "2025-11-15",
     "quarter": "2025 Q3",
-    "subject": "On Deck — restructuring update",
+    "subject": "Company E — restructuring update",
     "current_arr_usd": 4200000,
     "yoy_growth_pct": -34,
     "runway_months": 9,
     "raise_planned": "Bridge round of $3M from existing investors, closing November",
     "headcount": 18,
     "customer_metrics": {
-      "active_fellowship_members": 1200,
+      "active_members": 1200,
       "churn_monthly_pct": null
     },
     "highlights": [
-      "Reduced from $48M Series B post to focus on On Deck Founders as sole product",
+      "Refocused on single core product line",
       "Cut headcount from 145 to 18 over the past 18 months",
       "Path to default-alive at $5M ARR with current cost structure"
     ],
     "risk_flags": [
       "Brand and trust impaired post-layoff cycle",
-      "Cohort fellowship business never reached previously-projected unit economics",
-      "Bridge round priced at 70% discount to last priced round (Series B)"
+      "Unit economics never reached previously-projected levels",
+      "Bridge priced at 70% discount to last priced round"
     ],
     "ask": "Please consider re-up; bridge is open to existing LPs through Nov 30"
   },
   {
-    "company": "Atlys",
-    "email_date": "2026-02-20",
-    "quarter": "2026 Q1",
-    "subject": "Atlys — Series A closed, growth update",
-    "current_arr_usd": 45000000,
-    "yoy_growth_pct": 280,
-    "runway_months": 40,
-    "raise_planned": "Series A closed Jan 2026 — $30M led by Peak XV, $185M post-money",
-    "headcount": 145,
-    "customer_metrics": {
-      "visas_processed_monthly": 38000,
-      "approval_rate_pct": 96.4,
-      "nps": 71
-    },
-    "highlights": [
-      "Crossed $45M ARR in Feb 2026, up from $12M YoY (~280%)",
-      "Series A closed at $185M post — strong terms, no liquidation preference creep",
-      "Expanded to UK and Singapore destinations (previously US + Schengen only)"
-    ],
-    "risk_flags": [
-      "Regulatory exposure to changes in US visa processing (election year)",
-      "Customer concentration: top 3 destination countries = 78% of volume"
-    ],
-    "ask": "Looking for ops talent — VP Operations role open"
-  },
-  {
-    "company": "Yac",
+    "_note": "FABRICATED placeholder for a shutdown notice.",
+    "company": "Company F — async communication tooling",
     "email_date": "2024-08-10",
     "quarter": "Final notice",
-    "subject": "Yac — shutdown notice and wind-down",
+    "subject": "Company F — shutdown notice and wind-down",
     "current_arr_usd": 800000,
     "yoy_growth_pct": -62,
     "runway_months": 0,
     "raise_planned": "Shutdown decision made; no further raise",
     "headcount": 4,
     "highlights": [
-      "Effective Aug 31 2024, Yac ceasing operations",
-      "Async voice/video category did not develop as predicted; Loom dominance proved structural",
+      "Effective Aug 31 2024, ceasing operations",
+      "Category did not develop as predicted",
       "Remaining cash returned to LPs as final distribution (~$0.04 per dollar invested)"
     ],
     "risk_flags": [
       "Category bet did not work out",
       "Shutdown is orderly; no employee or customer liability"
     ],
-    "ask": "Thanks for the support. Wind-down formalities will close out by Q4 2024."
+    "ask": "Wind-down formalities will close out by Q4 2024."
   },
   {
-    "company": "MarketerHire",
+    "_note": "FABRICATED placeholder for a shutdown with zero distribution.",
+    "company": "Company G — marketplace",
     "email_date": "2024-03-22",
     "quarter": "Final notice",
-    "subject": "MarketerHire — closing notice",
+    "subject": "Company G — closing notice",
     "current_arr_usd": null,
     "yoy_growth_pct": null,
     "runway_months": 0,
     "raise_planned": "None; shutdown effective March 31 2024",
     "headcount": 0,
     "highlights": [
-      "Marketplace economics did not converge; CAC remained above LTV through 2023",
-      "Attempted enterprise pivot in late 2023 did not gain traction",
+      "Marketplace economics did not converge; CAC remained above LTV",
+      "Attempted enterprise pivot did not gain traction",
       "Company closing with zero distribution to investors"
     ],
     "risk_flags": [
-      "Marketplace category being eaten by Upwork's enterprise tier"
+      "Category eaten by adjacent enterprise platform"
     ],
     "ask": "n/a — final email"
   }

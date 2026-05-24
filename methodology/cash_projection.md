@@ -42,7 +42,7 @@ If gross-to-fund exit = $250,000:
   multiple on deployed = 2.79×  ← don't quote this as LP returns; it ignores fee drag
 ```
 
-## Access fund pattern (e.g., Austen-style closed-end LP)
+## Access fund pattern (single-vintage closed-end LP)
 
 **Fee structure:**
 - No periodic fee drag on LP

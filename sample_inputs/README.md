@@ -2,6 +2,8 @@
 
 This directory shows fabricated examples of the personal-data sources the pipeline depends on, plus what each one contributes to the final mark. **All files in this directory are made up.** Real-deployment data would replace each with the actual artifact from your LP relationships.
 
+A note on naming: most files use the real cohort company names because they reflect public-record data (cost basis, round dates, GP marks, QSBS classification). `founder_quarterly_email.json` uses generic placeholders (Company A, Company B, etc.) because the file contains forward-looking claims (ARR figures, named customer wins, raise plans) that — even with a disclaimer — could be misread as factual statements about specific real companies.
+
 The whole point of this repo is that the methodology is only as good as these inputs. Founder emails and K-1s aren't ornamental — they're how you escape the "trust the GP's stale marks" trap.
 
 ## The inputs, ranked by forecasting value
