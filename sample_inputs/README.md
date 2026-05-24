@@ -22,7 +22,7 @@ The whole point of this repo is that the methodology is only as good as these in
 - `customer_metrics.churn_monthly_pct` → for SaaS positions, >3% monthly churn caps bull case
 - `risk_flags` → can trigger immediate re-mark down (founder departure, lawsuit, lost major customer)
 
-**How to collect:** Set up a Gmail label `lp/<fund-name>` and route founder updates there. Quarterly, dump the label to JSON via the Gmail API and run the parser. ~30 emails per fund per year is typical.
+**How to collect:** Set up a Gmail label `lp/<fund-name>`, route founder updates there with a Gmail filter, then run `pipeline/pull_gmail.py` to dump them to JSON. Optionally run `pipeline/parse_emails_with_llm.py` to have Claude fill the structured fields automatically. Full walkthrough: `docs/gmail_setup.md`. ~30 emails per fund per year is typical.
 
 ### 2. LP investment CSV — `lp_investments.csv`
 

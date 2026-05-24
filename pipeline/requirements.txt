@@ -1,0 +1,14 @@
+# Optional dependencies for the Gmail integration.
+# The core pipeline (compute_dilution.py, compute_corrected_ev.py,
+# cash_return_model.py, emit_dashboard_json.py) uses Python stdlib only and
+# does not need these.
+#
+#   pip install -r pipeline/requirements.txt
+
+# Gmail OAuth + API access
+google-api-python-client>=2.100
+google-auth-httplib2>=0.2
+google-auth-oauthlib>=1.2
+
+# LLM-based email parsing
+anthropic>=0.40

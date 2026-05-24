@@ -215,11 +215,23 @@ Append every distribution as it lands. Captures:
 
 These get subtracted from forward expected-exit value so your model doesn't double-count realized exits.
 
-#### 2f. `founder_quarterly_email.json` — forward signal (~15 min/email)
+#### 2f. `founder_quarterly_email.json` — forward signal (~15 min/email, or automated)
 
-The single highest-value forecasting input. Set up a Gmail label `lp/<fund-name>` and route founder updates there. Quarterly, dump to JSON via the Gmail API (`gmail_api_python_quickstart` works for personal use).
+The single highest-value forecasting input. The repo ships a working Gmail integration:
 
-Parse out:
+```bash
+# One-time setup: see docs/gmail_setup.md for OAuth + Gmail filter setup
+pip install -r pipeline/requirements.txt
+
+# Pull new founder updates from a Gmail label
+python pipeline/pull_gmail.py --label "lp/sahil-rolling" --after 2026/01/01
+
+# Have Claude extract structured fields (ARR, growth, runway, etc.)
+export ANTHROPIC_API_KEY=sk-ant-...
+python pipeline/parse_emails_with_llm.py
+```
+
+The fields the pipeline reads downstream:
 
 - `current_arr_usd` — anchors the comp-anchored scenarios
 - `yoy_growth_pct` — triggers AI-tailwind credit (>200%) or bear weight (<30%)
@@ -228,7 +240,7 @@ Parse out:
 - `customer_metrics.churn_monthly_pct` — caps bull case if >3% for SaaS
 - `risk_flags` — concrete distress signals (founder departure, lost major customer)
 
-You can keep these as raw email text and parse with an LLM, or hand-extract the fields. Both work.
+If you'd rather hand-extract, skip the Anthropic step and fill the fields manually. Full Gmail setup walkthrough including filter rules, scheduling, and troubleshooting: `docs/gmail_setup.md`.
 
 ### Step 3: Customize the scenario weights
 
@@ -317,5 +329,5 @@ This is a personal reference implementation, not a maintained product. Issues an
 
 - Round-history scraping from public sources (Crunchbase, PitchBook, AngelList feeds) — currently manual
 - K-1 OCR pipeline — currently manual
-- Founder-email parsing into structured signals — currently manual extraction
 - PME comparison wired up for any benchmark, not just hardcoded
+- Attachment / inline-image handling in `pull_gmail.py` (currently only body text — PDF financials and inline charts are skipped)

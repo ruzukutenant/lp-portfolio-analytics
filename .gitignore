@@ -18,3 +18,8 @@ __pycache__/
 # Env / secrets — keep this out even though there's nothing sensitive in the sample
 .env*
 *.local
+
+# Gmail OAuth — never commit (grants read access to your Gmail)
+credentials.json
+token.json
+client_secret*.json
